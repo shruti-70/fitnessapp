@@ -1,2 +1,0 @@
-# fitnessapp
-Frontend Hacakthon
