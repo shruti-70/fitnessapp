@@ -22,7 +22,7 @@ const PhoneMockup = () => {
             }}
           >
             <img
-              src="src/assets/screen.png" 
+              src="public/images/screen.png" 
               alt="App Screen"
               className="w-full h-full object-cover rounded-2xl"
               style={{

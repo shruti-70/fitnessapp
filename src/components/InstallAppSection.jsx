@@ -1,6 +1,5 @@
 import React from "react";
-import PhoneMockup from "./PhoneMockUp"; // Ensure this is the Phone mockup component file
-
+import PhoneMockup from "./PhoneMockUp"; 
 const InstallAppSection = () => {
   return (
     <>
@@ -17,12 +16,12 @@ const InstallAppSection = () => {
             </p>
             <div className="flex justify-center md:justify-start gap-4">
               <img
-                src="src/assets/appstore.png"
+                src="public/images/appstore.png"
                 alt="App Store"
                 className="h-12"
               />
               <img
-                src="src/assets/playstore.png"
+                src="public/images/playstore.png"
                 alt="Google Play"
                 className="h-12"
               />
@@ -48,7 +47,7 @@ const InstallAppSection = () => {
             {/* Card 1 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="src/assets/yoga.jpg"
+                src="public/images/yoga.jpg"
                 alt="Yoga"
                 className="w-full h-48 object-cover"
               />
@@ -63,7 +62,7 @@ const InstallAppSection = () => {
          
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="src/assets/weightlifting.png"
+                src="public/images/weightlifting.png"
                 alt="Weightlifting"
                 className="w-full h-48 object-cover"
               />
@@ -78,7 +77,7 @@ const InstallAppSection = () => {
        
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="src/assets/cal.png"
+                src="public/images/cal.png"
                 alt="Calisthenics"
                 className="w-full h-48 object-cover"
               />
@@ -92,7 +91,7 @@ const InstallAppSection = () => {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="src/assets/cardio.jpg"
+                src="public/images/cardio.jpg"
                 alt="Cardio"
                 className="w-full h-48 object-cover"
               />
