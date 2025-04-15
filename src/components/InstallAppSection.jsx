@@ -16,12 +16,12 @@ const InstallAppSection = () => {
             </p>
             <div className="flex justify-center md:justify-start gap-4">
               <img
-                src="public/images/appstore.png"
+                src="/images/appstore.png"
                 alt="App Store"
                 className="h-12"
-              />
+              /> 
               <img
-                src="public/images/playstore.png"
+                src="/images/playstore.png"
                 alt="Google Play"
                 className="h-12"
               />
@@ -47,7 +47,7 @@ const InstallAppSection = () => {
             {/* Card 1 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="public/images/yoga.jpg"
+                src="/images/yoga.jpg"
                 alt="Yoga"
                 className="w-full h-48 object-cover"
               />
@@ -62,7 +62,7 @@ const InstallAppSection = () => {
          
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="public/images/weightlifting.png"
+                src="/images/weightlifting.png"
                 alt="Weightlifting"
                 className="w-full h-48 object-cover"
               />
@@ -77,7 +77,7 @@ const InstallAppSection = () => {
        
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="public/images/cal.png"
+                src="/images/cal.png"
                 alt="Calisthenics"
                 className="w-full h-48 object-cover"
               />
@@ -91,7 +91,7 @@ const InstallAppSection = () => {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <img
-                src="public/images/cardio.jpg"
+                src="/images/cardio.jpg"
                 alt="Cardio"
                 className="w-full h-48 object-cover"
               />

@@ -40,7 +40,7 @@ const Navbar = () => {
           className="flex items-center space-x-2 cursor-pointer"
         >
           <img
-            src="public/images/logo.png"
+            src="/images/logo.png"
             alt="FitYou Logo"
             className="h-12 w-12 object-contain"
           />

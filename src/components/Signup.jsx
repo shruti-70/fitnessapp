@@ -8,6 +8,9 @@ const SignUp = () => {
     fullName: "",
     email: "",
     password: "",
+    workoutType: "",
+    age: "",
+    weight: "",
   });
 
   const handleSubmit = (e) => {
@@ -56,6 +59,41 @@ const SignUp = () => {
             value={formData.password}
             onChange={handleInputChange}
             placeholder="Password"
+            className="w-full p-3 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300"
+          />
+
+          {/* Workout Type */}
+          <select
+            name="workoutType"
+            value={formData.workoutType}
+            onChange={handleInputChange}
+            className="w-full p-3 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300"
+          >
+            <option value="">Select Workout Type</option>
+            <option value="yoga">Yoga</option>
+            <option value="cardio">Cardio</option>
+            <option value="calisthenics">Calisthenics</option>
+            <option value="weightlifting">Weightlifting</option>
+            <option value="other">Other</option>
+          </select>
+
+          {/* Age */}
+          <input
+            type="number"
+            name="age"
+            value={formData.age}
+            onChange={handleInputChange}
+            placeholder="Your Age"
+            className="w-full p-3 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300"
+          />
+
+          {/* Weight */}
+          <input
+            type="number"
+            name="weight"
+            value={formData.weight}
+            onChange={handleInputChange}
+            placeholder="Your Weight (kg)"
             className="w-full p-3 mb-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300"
           />
 
