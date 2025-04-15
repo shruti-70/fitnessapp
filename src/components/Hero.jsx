@@ -1,7 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom"; 
 
 const HeroSection = () => {
+  const navigate = useNavigate(); 
+
   return (
     <section
       id="home"
@@ -20,7 +23,7 @@ const HeroSection = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Foreground Content */}
+
       <motion.div
         className="relative z-10 flex flex-col justify-center items-center text-center h-full max-w-7xl mx-auto px-6 text-white"
         initial={{ opacity: 0, y: 40 }}
@@ -33,12 +36,12 @@ const HeroSection = () => {
         <p className="text-lg md:text-2xl mb-6 max-w-2xl drop-shadow-md">
           Personalised Plans to fit your workout. Get results. Get going.
         </p>
-        <a
-          href="/signup"
+        <button
+          onClick={() => navigate("/signup")} // ✅ Navigate on click
           className="bg-purple-700 hover:bg-gradient-to-b from-purple-600 to-cyan-400 transition px-6 py-3 rounded-lg font-semibold shadow-lg"
         >
           Start Your Journey
-        </a>
+        </button>
       </motion.div>
     </section>
   );
