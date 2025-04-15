@@ -5,7 +5,7 @@ import HeroSection from "./components/Hero";
 import InstallAppSection from "./components/InstallAppSection";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import SignUp from "./components/SignUp";
+import SignUp from "./components/Signup";
 
 const AppWrapper = () => {
   const location = useLocation();
