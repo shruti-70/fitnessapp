@@ -5,21 +5,21 @@ const testimonials = [
   {
     name: "Jack",
     role: "Fitness Enthusiast",
-    image: "${process.env.PUBLIC_URL}/images/user1.jpg",
+    image: "/images/user1.jpg",
     quote:
       "This app completely changed my routine! I do calisthenics but the workout plans are so flexible for any workout routine",
   },
   {
     name: "Ron",
     role: "Beginner Lifter",
-    image: "${process.env.PUBLIC_URL}/images/user2.jpg",
+    image: "images/user2.jpg",
     quote:
       "As a beginner, I always felt lost in the gym. The plan guided me step-by-step. Highly recommend!",
   },
   {
     name: "Lorraine",
     role: "Yoga & Strength Trainer",
-    image: "${process.env.PUBLIC_URL}/images/user3.jpg",
+    image: "/images/user3.jpg",
     quote:
       "The personalized programs are on point. I even recommend this to my own clients now!",
   },

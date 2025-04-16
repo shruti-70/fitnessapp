@@ -5,6 +5,7 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
+import PricingPlans from "./components/PricingPlans";
 
 // Lazy load components
 const Navbar = lazy(() => import("./components/Navbar"));
@@ -33,6 +34,7 @@ const AppWrapper = () => {
       {!isSignupPage && (
         <>
           <InstallAppSection />
+          <PricingPlans />
           <Testimonials />
         </>
       )}
