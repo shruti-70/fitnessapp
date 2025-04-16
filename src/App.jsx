@@ -16,7 +16,29 @@ const Footer = lazy(() => import("./components/Footer"));
 const SignUp = lazy(() => import("./components/Signup"));
 
 // Simple fallback loader
-const Loading = () => <div>Loading...</div>;
+const Loading = () => (
+  <div className="flex items-center justify-center h-screen bg-white">
+    <div className="loader" />
+    <style>
+      {`
+        .loader {
+          border: 6px solid #f3f3f3;
+          border-top: 6px solid #4f46e5;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      `}
+    </style>
+  </div>
+);
+
 
 const AppWrapper = () => {
   const location = useLocation();
